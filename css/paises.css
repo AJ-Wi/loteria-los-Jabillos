@@ -1,0 +1,69 @@
+body{
+  background-color: black;
+}
+
+#unidad {
+	width: 80%;
+  margin-left: 10%;
+	display: flex;
+  flex-wrap: wrap;
+  padding: 0 20px 20px 20px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 1px 10px rgba(255, 255, 255, 0.4);
+  justify-content: space-between;
+}
+
+#unidad h1 {
+	width: 100%;
+	color: white;
+  text-align: center;
+}
+
+#unidad #boton {
+	width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#boton input {
+  font-size: 150%;
+  cursor: pointer;
+}
+
+#unidad #asar {
+	width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#boton #jugar {
+	width: 15%;
+  height: 40px;
+	color: red;
+  text-align: center;
+}
+
+article {
+	width: 15%;
+    padding: 0 20px;
+	margin: 10px 5px 0 5px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 10px rgba(255, 255, 255, 0.4);
+}
+
+article #animal {
+  height: 150px;
+}
+
+article img {
+	width: 100%;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 10px rgba(255, 255, 255, 0.4);
+}
+
+article h2 {
+	color: red;
+	text-align: center;
+}

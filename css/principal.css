@@ -1,0 +1,195 @@
+main {
+	max-width: 1300px;
+}
+
+#F1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+ul { 	 
+	overflow: auto; 	 
+	border: 1px solid #000; 
+	list-style-type: none;
+	margin: 0; 
+	padding: 5px; 
+	overflow-x: hidden;
+    border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+#Lsorteos {
+	height: 410px;
+	width: 170px;
+}
+
+.L {
+	color: red;
+}
+
+.G {
+	color: green;
+}
+
+.P {
+	color: brown;
+}
+
+.eliminar {
+	width: 160px;
+	height: 35px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	padding: 3px;
+	margin: 10px 0;
+}
+
+.texto {
+    border-style: hidden;
+    outline: none;
+	padding: 3px;	
+	width: 150px;
+}
+
+.eliminar input {
+	
+}
+
+.textoR {
+    border-style: hidden;
+    outline: none;
+	padding: 3px;	
+	width: 120px;
+	height: 30px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	padding: 5px;
+	margin-left: 10px;
+}
+
+#Lanimalitos {
+	height: 620px;
+	width: 170px;
+}
+
+li { 
+	margin: 0; 
+	padding: 0; 
+}
+
+label { 
+	display: block; 
+	color: WindowText; 
+	background-color: Window; 
+	margin: 0; 
+	padding: 0; 
+	width: 100%; 
+}
+
+label:hover { 
+	background-color: Highlight; 
+	color: HighlightText; 
+	cursor: pointer;
+}
+
+.agregar {
+	width: 620px;
+	height: 50px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.Jugadas {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.apuesta {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.monto {
+	display: flex;
+	flex-wrap: wrap;	
+}
+
+.monto input {
+	margin-left: 10px;
+	width: 50px;
+}
+
+.opciones {
+	margin-top: 10px;
+}
+
+.listajugada {
+	width: 305px;
+	height: 525px;
+}
+
+.listajugada ul {
+	width: 100%;
+	height: 100%;
+	padding: 5px;	
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.listajugada select option:hover {
+	background-color: Highlight; 
+	color: HighlightText;
+	cursor: pointer;
+}
+
+.listajugada label {
+	font-size: 15px;
+}
+
+#Nval {
+	width: 60px;
+}
+
+.previo {
+	width: 295px;
+	min-height: 525px;
+	margin-top:10px;
+	padding: 15px;
+	background: rgba(82, 86, 89, 1);
+	border: 5px outset rgba(82, 86, 89, 0.3);
+}
+
+.ticket {
+	width: 250px;
+	min-height: 485px;
+	padding: 20px;
+	background: white;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	text-align: center;
+}
+
+button, .menuboton {
+	width: 160px;
+	height: 35px;
+	padding: 3px;
+	cursor: pointer;
+	border-radius: 5px;
+	display: block;
+	margin-top: 10px;
+	background: rgba(231, 100, 34, 1);
+}
+
+.boton {
+	width: 100px;
+	height: 30px;
+	padding: 2px;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-top: 5px;
+	background: rgba(231, 100, 34, 1);
+}
+   

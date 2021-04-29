@@ -1,0 +1,167 @@
+main {
+	max-width: 1400px;
+}
+
+.principal {
+	height: auto;
+}
+
+.cuerpo {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cuerpo .formulario {
+	display: flex;
+	flex-wrap: wrap;
+	width: 550px;
+	justify-content: space-between;
+}
+
+ul { 	 
+	overflow: auto; 	 
+	border: 1px solid #000; 
+	list-style-type: none;
+	margin: 0; 
+	padding: 5px; 
+	overflow-x: hidden;
+    border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+#Lsorteos {
+	height: 410px;
+	width: 170px;
+}
+
+.L {
+	color: red;
+}
+
+.G {
+	color: green;
+}
+
+.P {
+	color: brown;
+}
+
+#Lanimalitos {
+	height: 620px;
+	width: 170px;
+}
+
+li { 
+	margin: 0; 
+	padding: 0; 
+}
+
+label { 
+	display: block; 
+	color: WindowText; 
+	background-color: Window; 
+	margin: 0; 
+	padding: 0; 
+	width: 100%; 
+}
+
+label:hover { 
+	background-color: Highlight; 
+	color: HighlightText; 
+	cursor: pointer;
+}
+
+.menuboton {
+	width: 160px;
+	height: 35px;
+	padding: 3px;
+	cursor: pointer;
+	border-radius: 5px;
+	display: block;
+	margin-top: 10px;
+	background: rgba(231, 100, 34, 1);
+}
+
+.cajas {
+	margin-left: 20px;
+}
+
+.tabla {
+	width: 600px;
+	margin: auto;
+}
+
+.tablaL {
+	width: 680px;
+	margin: auto;
+}
+
+.tablaG {
+	width: 748px;
+}
+
+.fila {
+	display: flex;
+	flex-wrap: wrap;	
+}
+
+.fila h2 {
+	width: 100%;
+	text-align: center;
+}
+
+.columna, .columna1, .columna2, .columnabs {
+	height: 30px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	padding: 5px;
+}
+
+.columna {
+	width: 68px;
+}
+
+.columna1 {
+	width: 75px;
+}
+
+.columna2 {
+	width: 150px;
+}
+
+.columnabs {
+	width: 150px;
+}
+
+.montopagar {
+	width: 400px;
+	margin-left: 20px;
+	text-align: center;
+}
+
+#L {
+	color: red;
+}
+
+#G {
+	color: green;
+}
+
+#buscarF {
+	margin-top: 20px;
+}
+
+.cajaF {
+	width: 100%;
+	height: 30px;
+	margin-top: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+}
+
+#fecha {
+	width: 90%;	
+	margin-left: 5px;
+	border-style: hidden;
+    outline: none;
+	padding: 3px;
+}
