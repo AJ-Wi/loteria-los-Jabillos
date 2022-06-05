@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/AJ-Wi/AJ-Wi.github.io/blob/master/images/AJ-Wi.svg" width="300" title="AJ-Wi">
+    <img src="https://github.com/AJ-Wi/AJ-Wi/blob/main/assets/logo_horizontal.png" width="300" title="AJ-Wi">
 </p>
 
 # El Jabillo
